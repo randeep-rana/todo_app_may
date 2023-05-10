@@ -11,6 +11,16 @@
   color: white;
 }
 
+.title-container {
+  margin-top: 80px;
+  color: white;
+  padding: 12px;
+}
+
+.title-container h3 {
+  font-size: 40px;
+} 
+
 .todosContainer {
   display: flex;
   flex-direction: column;

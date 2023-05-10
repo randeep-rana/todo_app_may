@@ -72,7 +72,11 @@ function App() {
       <InputContainer addTodo={addTodo} />
 
       {
-        todos.length > 0 ? null : <h3 className="title">Welcome to Beautiful Day planner 👋</h3> 
+        todos.length > 0 ? null : <div className="title-container">
+          <h3>Welcome to Beautiful Day planner 👋</h3>
+          <p>Make PLANS / SCHEDULES / STRATEGIES with us and achieve your goals</p>
+          <p>This app is made with ❤️ by Randeep Rana😄</p>
+        </div> 
       }
 
       <div className="todosContainer">
